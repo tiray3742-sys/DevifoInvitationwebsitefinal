@@ -109,21 +109,30 @@ img {
     margin-bottom: 20px;
   }
 }
-
 /* HP */
 @media (max-width: 480px) {
 
-  button {
-    width: auto;            /* tidak full */
-    padding: 8px 14px;      /* lebih ramping */
-    font-size: 14px;
-    border-radius: 8px;
+  .produk {
+    text-align: center;
   }
 
   .produk button {
-    margin-top: 8px;
+    display: inline-block;
+    width: auto;
+    padding: 6px 14px;
+    font-size: 13px;
+    border-radius: 6px;
   }
 }
+
+.produk button {
+  transition: 0.2s;
+}
+
+.produk button:hover {
+  transform: scale(1.05);
+}
+
 
   .product-img {
     width: 90%;
