@@ -110,7 +110,7 @@ img {
   }
 }
 /* HP */
-@media (max-width: 480px) {
+@media (max-width: 350px) {
 
   .produk {
     text-align: center;
@@ -118,7 +118,7 @@ img {
 
   .produk button {
     display: inline-block;
-    width: auto;
+    width: 100;
     padding: 6px 14px;
     font-size: 13px;
     border-radius: 6px;
@@ -174,4 +174,5 @@ img {
     height: auto;
   }
 }
+
 
