@@ -140,3 +140,25 @@ img {
   background: #fff;
 }
 
+/* =========================
+   FORCE MOBILE STACKING
+   ========================= */
+
+@media (max-width: 768px) {
+
+  .produk-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .produk {
+    width: 100%;
+  }
+
+  .product-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
