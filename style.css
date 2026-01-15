@@ -53,14 +53,15 @@ button {
     font-size: 15px;
 }
 
+.hero-logo {
+    width: 600px;
+    margin-bottom: 20px;
+}
+
 button:hover {
     background: #315f7d;
 }
 
-.hero-logo {
-    width: 400px;
-    margin-bottom: 20px;
-}
 
 header::before {
     content: "";
@@ -78,4 +79,5 @@ header {
     background-position: center 30%;
 }
 
+background-image: url("../img/bg.jpg");
 
