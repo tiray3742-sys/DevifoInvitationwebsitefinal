@@ -112,14 +112,18 @@ img {
 
 /* HP */
 @media (max-width: 480px) {
-  h1 { font-size: 24px; }
-  h2 { font-size: 20px; }
-  p  { font-size: 14px; }
 
-  .produk {
-    display: block;
-    text-align: center;
+  button {
+    width: auto;            /* tidak full */
+    padding: 8px 14px;      /* lebih ramping */
+    font-size: 14px;
+    border-radius: 8px;
   }
+
+  .produk button {
+    margin-top: 8px;
+  }
+}
 
   .product-img {
     width: 90%;
