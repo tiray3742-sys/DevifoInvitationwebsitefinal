@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f6f8fb;
+}
+
+header {
+    background: linear-gradient(135deg, #89CFF0, #4682B4);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.produk-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.produk {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.produk h3 {
+    margin: 15px 0 5px;
+}
+
+.produk p {
+    color: #555;
+}
+
+
+.produk img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    margin: 15px;
+    padding: 12px 20px;
+    border: none;
+    background: #4682B4;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #315f7d;
+}
+
+.hero-logo {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+header {
+    position: relative;
+
+}
+
+header {
+    background-position: center 30%;
+}
+
+
